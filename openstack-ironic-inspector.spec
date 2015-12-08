@@ -28,6 +28,7 @@ BuildRequires: python-jsonpath-rw
 BuildRequires: python-jsonschema
 BuildRequires: python-keystoneclient
 BuildRequires: python-keystonemiddleware
+BuildRequires: python-oslo-concurrency
 BuildRequires: python-oslo-config
 BuildRequires: python-oslo-db
 BuildRequires: python-oslo-i18n
@@ -50,6 +51,7 @@ Requires: python-jsonpath-rw
 Requires: python-jsonschema
 Requires: python-keystoneclient
 Requires: python-keystonemiddleware
+Requires: python-oslo-concurrency
 Requires: python-oslo-config
 Requires: python-oslo-db
 Requires: python-oslo-i18n
